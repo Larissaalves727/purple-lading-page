@@ -6,21 +6,34 @@
     <title>Purple Landing Page</title>
 </head>
 <body>
-    <menu>
-        <p>Início</p>
-        <p>Serviços</p>
-        <p>Sobre</p>
-        <p>Contato</p>
-        <p>Já tem uma conta</p>
-    </menu>
     <main>
-        <h1>Inscreva-se agora na Newslatter</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia eligendi quae dolorum vero vel, autem culpa dignissimos, doloribus rem, adipisci ipsum perspiciatis ipsam magnam provident dolore ab molestias accusantium!</p>
+        <h1>Marketing Criativo</h1>
+            <menu>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Já tem uma conta?</a></li>
+            </ul>
+            </menu>
+
+            <section id="login">
+                <div id="imagem">
+                    imagem
+                </div>
+                <h1>Inscreva-se agora na Newslatter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia eligendi quae dolorum vero vel, autem culpa dignissimos, doloribus rem, adipisci ipsum perspiciatis ipsam magnam provident dolore ab molestias accusantium!</p>
+                <form action="cadastro.php" method="post">
+                <div class="campo">
+                <input type="text" name="nome" id="inome" placeholder="Nome" required maxlength="30">
+                </div>
+                <div class="campo">
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required maxlength="30">
+                </div>
+                <input type="submit" value="Enviar">
+            </section>
+        </form>
     </main>
-    <form action="cadastro.php" method="post">
-        <input type="text" name="nome" id="inome">
-        <input type="email" name="email" id="iemail">
-        <input type="submit" value="Enviar">
-    </form>
 </body>
 </html>
