@@ -13,9 +13,35 @@ body, html{
     width: 100vw;
 }
 
+header{
+    position: relative;
+}
+
+main{
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h1.mark{
+    display: block;
+    text-align: right;
+    font-size: 1.5em;
+    margin: 10px;
+
+    
+}
+
 span#burguer {
+    display: block;
     color: white;
     display: block;
+    margin-top: -50px;
     padding: 10px;
     cursor: pointer;
 }
@@ -36,24 +62,40 @@ menu > ul > li > a{
 }
 
 menu > ul > li a:hover {
-    background-color: darkgray;
+    font-size: 1.2em;
+    color: purple;
 }
 
 section#login > div#imagem {
     display: block;
     background: url('../imagens/mulher-meditando.png') no-repeat;
     background-size: contain;
+    margin: auto;
+    margin-top: 20px;
     height: 200px;
     width: 200px;
+}
+
+p {
+ padding: 10px;
+}
+
+h1 > span.roxo{
+    color: purple;
 }
 
 div.campo > input {
     font-size: 1em;
     height: 35px;
+    width: 300px;
     border: 0px;
     border-radius: 12px;
     padding: 4px;
     margin: 5px;
+}
+
+div.campo > input:hover {
+    background-color: lightgrey;
 }
 
 form > input[type=submit] {

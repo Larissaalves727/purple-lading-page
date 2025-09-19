@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
-    <main>
-        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
+    <header>
+        <h1 class="mark" id="fixar">Marketing Criativo</h1>
+
+         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
             menu
         </span>
         <menu id="itens">
@@ -22,14 +24,15 @@
                 <li><a href="#">Já tem uma conta?</a></li>
             </ul>
         </menu>
-
-        <h1>Marketing Criativo</h1>
+    </header>
+    
+    <main>
 
         <section id="login">
             <div id="imagem">
 
             </div>
-            <h1>Inscreva-se agora na Newslatter</h1>
+            <h1><span class="roxo">Inscreva-se agora</span><br> na Newslatter</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia eligendi quae dolorum vero vel, autem culpa dignissimos, doloribus rem, adipisci ipsum perspiciatis ipsam magnam provident dolore ab molestias accusantium!</p>
 
             <form action="cadastro.php" method="post">
@@ -46,6 +49,7 @@
     </main>
     <script>
 
+        funf
         function clickMenu() {
             if (itens.style.display == 'block'){
                 itens.style.display ='none'
@@ -54,6 +58,8 @@
                 itens.style.display = 'block'
             }
         }
+
+
 
     </script>
 </body>
