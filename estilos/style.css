@@ -21,7 +21,7 @@ main{
     position: relative;
     width: 90vw;
     height: 90vh;
-    margin: auto;
+    margin: 20px;
 }
 
 h1{
@@ -78,6 +78,7 @@ section#login > div#imagem {
 
 p {
  padding: 10px;
+ margin-top: 10px;
 }
 
 h1 > span.roxo{

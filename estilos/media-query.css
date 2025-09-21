@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+        text-align: right;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    menu > ul > li > a {
+        position: relative;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    menu > ul > li > a.conta {
+        border: 2px solid purple;
+        border-radius: 12px;
+    }
+
+    menu > ul > li > a.conta:hover {
+        background-color: purple;
+        color: white;
+    }
+    h1.mark {
+        position: fixed;
+        text-align: left;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    section#login {
+         margin-top: 70px;
+         width: 1000px;
+        
+    }
+    section#login > div#imagem {
+        float: right;
+        height: 470px;
+        width: 470px;
+    }
+    h1{
+        text-align: left;
+        font-size: 3em;
+
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 45%;
+    }
+}
